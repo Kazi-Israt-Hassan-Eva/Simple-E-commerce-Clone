@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ************************************************** navbar ************************************************* */
+.navbar{
+    height: 80px;
+    background-color: rgb(249, 224, 99);
+    color: black;
+    display: flex;
+    
+    align-self: center;
+
+}
+/* **************logo****************** */
+.nav-logo{
+    height: 70px;
+    width: 210px;
+    margin-top: 5px;
+    margin-bottom:5px ;
+}
+
+.logo{
+    background-image: url("wow.png");
+    background-size: cover;
+    height:70px;
+    width: 210px;
+}
+
+
+/* **************shiping****************** */
+
+.ship{
+    font-size: 1rem;
+    display: flex;
+    margin-left: 800px;
+    align-items: center;
+    
+}
+
+.ship a{
+    text-decoration:none ;
+    color: black;
+}
+
+
+/* **************language and currency****************** */
+
+.lang-currency{
+    font-size: 1rem;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.lang-currency a{
+    text-decoration:none ;
+    color: black;
+}
+
+/* **************sign in****************** */
+
+.signin{
+    font-size: 1rem;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.signin-click a{
+    text-decoration:none ;
+    color: black;
+}
+
+.signup{
+    font-size: 1rem;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    width: 100px;
+}
+
+
+
+/* ************************************************** 2ndnavbar ************************************************* */
+.navbar2{
+    height: 40px;
+    background-color: rgb(245, 253, 15);
+    color: black;
+    display: flex;
+    align-self: center;
+}
+
+.all-catagories{
+    display: flex;
+    align-self: center;
+    margin-left: 33px;
+    font-size: 1rem;
+}
+
+.all-catagories a{
+    text-decoration:none ;
+    color: black;
+}
+
+.featured{
+    display: flex;
+    align-self: center;
+    margin-left: 33px;
+    font-size: 1rem;
+}
+
+.featured a{
+    text-decoration:none ;
+    color: black;
+}
+
+.trade-assurance{
+    display: flex;
+    align-self: center;
+    margin-left: 33px;
+    font-size: 1rem;
+}
+
+.trade-assurance a{
+    text-decoration:none ;
+    color: black;
+}
+
+.buyer-center{
+    display: flex;
+    align-self: center;
+    margin-left: 430px;
+    font-size: 1rem;
+}
+
+.buyer-center a{
+    text-decoration:none ;
+    color: black;
+}
+
+.help-center{
+    display: flex;
+    align-self: center;
+    margin-left: 33px;
+    font-size: 1rem;
+}
+
+.help-center a{
+    text-decoration:none ;
+    color: black;
+}
+
+.get-app{
+    display: flex;
+    align-self: center;
+    margin-left: 33px;
+    font-size: 1rem;
+}
+
+.get-app a{
+    text-decoration:none ;
+    color: black;
+}
+
+.supplier{
+    display: flex;
+    align-self: center;
+    margin-left: 33px;
+    font-size: 1rem;
+}
+
+.supplier a{
+    text-decoration:none ;
+    color: black;
+}
+
+/* ************************************************** body ************************************************* */
+
+.body{
+    display: flex;
+    height: 600px;
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+}
+
+.videolink{
+    display: block;
+}
+.videolink a{
+    display: block;
+    text-decoration:none ;
+    color: white;
+    font-size: 2rem;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.paragraph a{
+    display: block;
+    font-size: 3rem;
+    color: white;
+    text-decoration:none ;
+    margin-top: 270px;
+}
+
+
+/* ************************************************** body 2 ************************************************* */
+
+.body2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 470px;
+    background-color: rgb(153, 89, 0);
+    
+}
+
+.box{
+    margin-top: 80px;
+    background-color:rgb(183, 119, 29);
+    height: 350px;
+    width: 20%;
+    border-radius: 30px;
+    
+    
+}
+
+.box:hover{
+    height: 360px;
+    width: 22%;
+    border-radius: 30px;
+    background-color:rgb(228, 151, 43);
+    
+   
+}
+
+h2{
+    color: antiquewhite;
+    padding: 20px 25px 20px 25px;
+}
+
+.p1{
+    color: antiquewhite;
+    padding: 20px 25px 20px 25px;
+    font-size: 1.3rem;
+} 
+
+
+/********************************************* footer Section **********************************************/
+
+.footer{
+    margin-top: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/********************** footer_box1 ***********************/
+.footer_box1{
+    background-color:rgb(228, 151, 43);
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+/********************** footer_box2 ***********************/
+
+.footer_box2{
+    background-color: #b4760b;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer_box2 a{
+    color: antiquewhite;
+    display: block;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+.footer_box2 p{
+    margin-top: 20px;
+}
+
+/********************** footer_box3 ***********************/
+
+.footer_box3{
+    background-color: #b4760b;
+    color: white;
+    border-top: 0.001rem solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width: 150px;
+
+}
+
+.language{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 20px;
+    border: 1px solid white
+}
+
+
+.currency a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    border: 1px solid white  
+    
+}
+
+.state a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    border: 1px solid white  
+}
+
+
+/********************** footer_box4 ***********************/
+
+.footer_box4{
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+    background-color: #0F1111;
+    color:#DDDDDD;
+    font-size: 12px;
+}
+
+.footer_box4 a{
+    margin-top: 20px;
+    display: block;
+    flex-wrap: wrap;
+    font-size: 0.80rem;
+    color: #999999;
+}
+
+.closing{
+    background-color: #0F1111;
+    color:#DDDDDD;
+    height: 80px;
+    font-size:0.7rem ;
+    text-align: center;
+}
+
+.closing1{
+    padding: 10px;
+}
+
+.copyright{
+    
+}

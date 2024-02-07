@@ -1,0 +1,38 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ 
+ .join{
+     margin-top: 100px;
+     height: 400px;
+     width: 500px;
+     background-color: bisque;
+     border-radius: 30px;
+     padding: 20px 25px 20px 25px;
+     
+ }
+
+ .page{
+    display: block;
+}
+
+.work{
+
+}
+
+.p1{
+    padding: 20px 25px 20px 25px;
+     
+}
+
+.country{}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(239, 91, 37);
+    border: 1px solid black;
+    border-radius: 10px;
+}
